@@ -21,7 +21,7 @@ void fill_board()
     {
         for (x = 0; x < cols; x++)
         {
-            if (x == 0 || y == 0 || x == cols - 1 || y == rows - 1)w
+            if (x == 0 || y == 0 || x == cols - 1 || y == rows - 1)
             {
                 board[y * cols + x] = '#';
             }
