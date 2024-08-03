@@ -35,10 +35,10 @@ void fill_board()
 
 void clear_screen()
 {
-    // Hack clear screen on Windows. Do not use!
+  
     system("cls");
-    // on Linux & MAC
-    // system("clear");
+
+    // system("clear");          ?
 }
 
 void print_board()
